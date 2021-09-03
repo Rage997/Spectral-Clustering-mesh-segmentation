@@ -241,4 +241,4 @@ mesh_segmentation = meshSegmentation(bpy.context.active_object, k=2)
 mesh_segmentation.run()
 mesh_segmentation.assign_vertex_groups()
 mesh_segmentation.assign_colors()
-mesh_segmentation.loose_cluster_components()
+# mesh_segmentation.loose_cluster_components() #buggy
